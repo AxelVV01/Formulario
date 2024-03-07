@@ -3,29 +3,20 @@ function myfuntion() {
     
 
     
-    const nombre = document.getElementById("nombre").textContent
-    const apellido = document.getElementById("apellido").textContent
-    const numero = document.getElementById("numero").textContent
-    const ninos = document.getElementById("ninos").textContent
-
-    let desayuno = document.getElementById("desayuno").textContent
-    let pension = document.getElementById("pension").textContent
-    let completo = document.getElementById("completo").textContent
+    const nombre = document.getElementById("nombre").value;
+    alert("Nombre: " + nombre);
+    const apellido = document.getElementById("apellido").value;
+    alert("apellido: " + apellido);
+    const numero = document.getElementById("numero").value;
+    alert("Adultos: " + numero);
+    const ninos = document.getElementById("ninos").value;
+    alert("Niños: " + ninos);
     
-    if(comida)
-    if (comida == true) {
-        alert("Solo desayuno")
-    }
+    
+    return
 
-    else if (comida) {
-        alert("Media pensión")
-    }
+  
+} 
 
-    else {
-        alert("Pensión completa")
-        return
-    } 
 
-}
-console.log(myfuntion);
 
