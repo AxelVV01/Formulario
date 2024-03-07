@@ -39,23 +39,32 @@
                 <fieldset class="comida">
                     <legend>Regimen de comidas</legend>
                     <div class="radio">
-                      <input type="radio" id="desayuno" name="desayuno">
-                      <label for="desayuno">Solo desayuno</label>
-                      <input type="radio" id="pension" name="pension">
-                      <label for="pension">Media pensión</label>
-                      <input type="radio" id="completo" name="completo">
-                      <label for="completo">Pensión completa</label>
+
+                       <div class="comidas">
+                          <input type="radio" id="desayuno" name="regimen">
+                          <label for="desayuno">Solo desayuno</label>
+                        </div>
+                       <div class="comidas">
+                          <input type="radio" id="pension" name="regimen">
+                          <label for="pension">Media Pensión</label>
+                       </div>
+                       <div class="comidas">
+                          <input type="radio" id="completo" name="regimen">
+                          <label for="completo">Pensión completa</label>
+                       </div>
+
                     </div>
                 </fieldset>
 
                 <div class="botones">
 
-                   <button>Reservar</button>
-                   <button>Borrar campos</button>
+                   <button class="green" onclick="myfuntion()">Reservar</button>
+                   <button class="red">borrar campos</button>
 
                 </div>
             </form>
         </div>
     </main>
+    <script src="JS/script.js"></script>
 </body>
 </html>

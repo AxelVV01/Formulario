@@ -37,9 +37,32 @@ label{
 #numero, #ninos{
     width: 65px;
     height: 25px;
+    text-align: center;
+    font-size: 17px;
 }
 .radio{
     display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
     
 }
-
+.comidas{
+    margin: 3px;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+button{
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    padding: 10px;
+}
+.green{
+    background-color: rgb(24, 226, 24);
+}
+.red{
+    background-color: rgb(225, 139, 139);
+}
