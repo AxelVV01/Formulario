@@ -7,11 +7,13 @@ function myfuntion() {
     const apellido = document.getElementById("apellido").value;
     const numero = document.getElementById("numero").value;
     const ninos = document.getElementById("ninos").value;
-    let comida = document.querySelector("#desayuno").value
-    let media = document.querySelector("#pension").value;
-    let completo = document.querySelector("#completo").value;
+    let comidas = document.getElementsByName("regimen").value
 
-    let regimen = [ comida, media, completo]
+    for (let i = 0; i < comidas.length; i++) {
+        const element = array[i];
+        
+    }
+
     
 
 
